@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <ImageView
+        android:id="@+id/bgpic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="bg pic"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bgpic" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingTop="5dp"
+        android:text="Happy Birthday Jade"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Love, Uncle Curt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:paddingRight="12dp"
+        android:paddingBottom="5dp"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"/>
+
+</RelativeLayout>
